@@ -1,0 +1,806 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0700DC9928457B920092CEFA /* RecitersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0700DC9828457B920092CEFA /* RecitersViewController.swift */; };
+		073DED9A2857DD870009F2DA /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073DED992857DD870009F2DA /* View.xib */; };
+		073DED9F285800290009F2DA /* AzkarCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DED9E285800290009F2DA /* AzkarCustomButton.swift */; };
+		073DEDA228580E8C0009F2DA /* AzkarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073DEDA128580E8C0009F2DA /* AzkarView.xib */; };
+		073DEDA62858122E0009F2DA /* SebhaCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DEDA52858122E0009F2DA /* SebhaCustomButton.swift */; };
+		073DEDAA285812700009F2DA /* SebhaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073DEDA9285812700009F2DA /* SebhaView.xib */; };
+		073DEDAE285814C30009F2DA /* QeblaCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DEDAD285814C30009F2DA /* QeblaCustomButton.swift */; };
+		073DEDB1285814EF0009F2DA /* QeblaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073DEDB0285814EF0009F2DA /* QeblaView.xib */; };
+		073DEDBA2858310E0009F2DA /* SebhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DEDB92858310E0009F2DA /* SebhaViewController.swift */; };
+		07411F1E2856E481004891F9 /* VerticalIconTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07411F1D2856E481004891F9 /* VerticalIconTextButton.swift */; };
+		0752DA842847E283005EBBF0 /* Designation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA762847E282005EBBF0 /* Designation.swift */; };
+		0752DA852847E283005EBBF0 /* PrayerTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA772847E282005EBBF0 /* PrayerTiming.swift */; };
+		0752DA862847E283005EBBF0 /* Gregorian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA782847E282005EBBF0 /* Gregorian.swift */; };
+		0752DA872847E283005EBBF0 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA792847E282005EBBF0 /* Method.swift */; };
+		0752DA882847E283005EBBF0 /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7A2847E282005EBBF0 /* Offset.swift */; };
+		0752DA892847E283005EBBF0 /* Datea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7B2847E282005EBBF0 /* Datea.swift */; };
+		0752DA8A2847E283005EBBF0 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7C2847E282005EBBF0 /* Weekday.swift */; };
+		0752DA8B2847E283005EBBF0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7D2847E282005EBBF0 /* Location.swift */; };
+		0752DA8C2847E283005EBBF0 /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7E2847E282005EBBF0 /* Params.swift */; };
+		0752DA8D2847E283005EBBF0 /* TimingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7F2847E282005EBBF0 /* TimingData.swift */; };
+		0752DA8E2847E283005EBBF0 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA802847E282005EBBF0 /* Meta.swift */; };
+		0752DA8F2847E283005EBBF0 /* Hijri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA812847E282005EBBF0 /* Hijri.swift */; };
+		0752DA902847E283005EBBF0 /* Timings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA822847E282005EBBF0 /* Timings.swift */; };
+		0752DA912847E283005EBBF0 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA832847E283005EBBF0 /* Month.swift */; };
+		075DDA832842B7A800C15348 /* AllAzkarTitles.json in Resources */ = {isa = PBXBuildFile; fileRef = 075DDA822842B7A800C15348 /* AllAzkarTitles.json */; };
+		075DDA862842C02300C15348 /* MorrningEveningAzkar.json in Resources */ = {isa = PBXBuildFile; fileRef = 075DDA852842C02300C15348 /* MorrningEveningAzkar.json */; };
+		075DDA8A2842CDB700C15348 /* MasahefMoratala.json in Resources */ = {isa = PBXBuildFile; fileRef = 075DDA892842CDB700C15348 /* MasahefMoratala.json */; };
+		0776E6D12854AC81007721DC /* AzkarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776E6D02854AC81007721DC /* AzkarModel.swift */; };
+		0776E6D42854ACAC007721DC /* MorningEveningAzkar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776E6D32854ACAC007721DC /* MorningEveningAzkar.swift */; };
+		0776E6E72854BBED007721DC /* MainAzkarTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776E6E52854BBED007721DC /* MainAzkarTitleTableViewCell.swift */; };
+		0776E6E82854BBED007721DC /* MainAzkarTitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0776E6E62854BBED007721DC /* MainAzkarTitleTableViewCell.xib */; };
+		0776E6EF2854BE42007721DC /* AzkarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776E6ED2854BE42007721DC /* AzkarCell.swift */; };
+		0776E6F02854BE42007721DC /* AzkarCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0776E6EE2854BE42007721DC /* AzkarCell.xib */; };
+		077F973328672456007DF88C /* CircleProgressAnimatios.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077F973228672456007DF88C /* CircleProgressAnimatios.swift */; };
+		078B91C4286B267A00BD1F26 /* FirstContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B91C3286B267A00BD1F26 /* FirstContainerViewController.swift */; };
+		078B91C7286B525500BD1F26 /* SecondContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B91C6286B525500BD1F26 /* SecondContainerViewController.swift */; };
+		078B91D2286B69C600BD1F26 /* ThirdContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B91D1286B69C600BD1F26 /* ThirdContainerViewController.swift */; };
+		078B91D6286B96C100BD1F26 /* SebhaAzkarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078B91D5286B96C100BD1F26 /* SebhaAzkarListViewController.swift */; };
+		07995A312848571A008C2A57 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07995A302848571A008C2A57 /* TabBarViewController.swift */; };
+		07A274812852F6B40004C96E /* MainAzkarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A2747F2852F6B30004C96E /* MainAzkarViewController.swift */; };
+		07A274822852F6B40004C96E /* DetailedAzkarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A274802852F6B30004C96E /* DetailedAzkarViewController.swift */; };
+		07A9E31A283D0818008EA4D3 /* QuranMetaJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 07A9E319283D0818008EA4D3 /* QuranMetaJSON.json */; };
+		07A9E322283DAB41008EA4D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07A9E321283DAB41008EA4D3 /* Assets.xcassets */; };
+		07B6F0AB283C69920074B49A /* GetDataFromJsonFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B6F0AA283C69920074B49A /* GetDataFromJsonFile.swift */; };
+		07B81F43286CCA530085AF48 /* FourthConatinerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B81F42286CCA530085AF48 /* FourthConatinerViewController.swift */; };
+		07BA38D12852A0D000136BBE /* TimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07BA38D02852A0D000136BBE /* TimeManager.swift */; };
+		07C538272847F4B800C19C22 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C538262847F4B800C19C22 /* HomeViewController.swift */; };
+		07C5382C284820C700C19C22 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C5382B284820C700C19C22 /* CardView.swift */; };
+		07CB82F02839AA3600E23D8A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB82EF2839AA3600E23D8A /* AppDelegate.swift */; };
+		07CB82F22839AA3600E23D8A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB82F12839AA3600E23D8A /* SceneDelegate.swift */; };
+		07CB82F42839AA3600E23D8A /* QuranViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB82F32839AA3600E23D8A /* QuranViewController.swift */; };
+		07CB82F72839AA3600E23D8A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CB82F52839AA3600E23D8A /* Main.storyboard */; };
+		07CB82FC2839AA3D00E23D8A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07CB82FA2839AA3D00E23D8A /* LaunchScreen.storyboard */; };
+		07CB830D2839AC1700E23D8A /* QuranCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07CB830C2839AC1700E23D8A /* QuranCell.xib */; };
+		07CB83102839AC2600E23D8A /* QuranCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB830F2839AC2600E23D8A /* QuranCell.swift */; };
+		07CB83172839AD0700E23D8A /* Almeekly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07CB83162839AD0700E23D8A /* Almeekly.swift */; };
+		07F40FF1284401C200FFD57E /* MoshafMoratalRecitation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F40FF0284401C200FFD57E /* MoshafMoratalRecitation.swift */; };
+		07F40FFB2844147F00FFD57E /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F40FF92844147F00FFD57E /* SideMenuTableViewCell.swift */; };
+		07F40FFC2844147F00FFD57E /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07F40FFA2844147F00FFD57E /* SideMenuTableViewCell.xib */; };
+		07F41000284445D200FFD57E /* ReciterMp3Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F40FFF284445D200FFD57E /* ReciterMp3Model.swift */; };
+		07FAED822839B22300B53237 /* QuranData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAED812839B22300B53237 /* QuranData.swift */; };
+		07FAED8D2839B8F300B53237 /* AzanApiRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAED882839B8F300B53237 /* AzanApiRoute.swift */; };
+		07FAED8E2839B8F300B53237 /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAED892839B8F300B53237 /* AppError.swift */; };
+		07FAED8F2839B8F300B53237 /* ApiMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAED8A2839B8F300B53237 /* ApiMethod.swift */; };
+		07FAED902839B8F300B53237 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAED8B2839B8F300B53237 /* NetworkService.swift */; };
+		07FAED912839B8F300B53237 /* APIResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAED8C2839B8F300B53237 /* APIResponse.swift */; };
+		07FAED952839D18700B53237 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FAED942839D18700B53237 /* PlayerViewController.swift */; };
+		B5155246AA82302B094D2A7F /* Pods_Muslim_Day.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3AE8D4009D85E97BA33D92 /* Pods_Muslim_Day.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0700DC9828457B920092CEFA /* RecitersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecitersViewController.swift; sourceTree = "<group>"; };
+		073DED992857DD870009F2DA /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		073DED9E285800290009F2DA /* AzkarCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarCustomButton.swift; sourceTree = "<group>"; };
+		073DEDA128580E8C0009F2DA /* AzkarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AzkarView.xib; sourceTree = "<group>"; };
+		073DEDA52858122E0009F2DA /* SebhaCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SebhaCustomButton.swift; sourceTree = "<group>"; };
+		073DEDA9285812700009F2DA /* SebhaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SebhaView.xib; sourceTree = "<group>"; };
+		073DEDAD285814C30009F2DA /* QeblaCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QeblaCustomButton.swift; sourceTree = "<group>"; };
+		073DEDB0285814EF0009F2DA /* QeblaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QeblaView.xib; sourceTree = "<group>"; };
+		073DEDB92858310E0009F2DA /* SebhaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SebhaViewController.swift; sourceTree = "<group>"; };
+		07411F1D2856E481004891F9 /* VerticalIconTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalIconTextButton.swift; sourceTree = "<group>"; };
+		0752DA762847E282005EBBF0 /* Designation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designation.swift; sourceTree = "<group>"; };
+		0752DA772847E282005EBBF0 /* PrayerTiming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTiming.swift; sourceTree = "<group>"; };
+		0752DA782847E282005EBBF0 /* Gregorian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gregorian.swift; sourceTree = "<group>"; };
+		0752DA792847E282005EBBF0 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
+		0752DA7A2847E282005EBBF0 /* Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
+		0752DA7B2847E282005EBBF0 /* Datea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datea.swift; sourceTree = "<group>"; };
+		0752DA7C2847E282005EBBF0 /* Weekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
+		0752DA7D2847E282005EBBF0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		0752DA7E2847E282005EBBF0 /* Params.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Params.swift; sourceTree = "<group>"; };
+		0752DA7F2847E282005EBBF0 /* TimingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingData.swift; sourceTree = "<group>"; };
+		0752DA802847E282005EBBF0 /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
+		0752DA812847E282005EBBF0 /* Hijri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hijri.swift; sourceTree = "<group>"; };
+		0752DA822847E282005EBBF0 /* Timings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timings.swift; sourceTree = "<group>"; };
+		0752DA832847E283005EBBF0 /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
+		075DDA822842B7A800C15348 /* AllAzkarTitles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllAzkarTitles.json; sourceTree = "<group>"; };
+		075DDA852842C02300C15348 /* MorrningEveningAzkar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MorrningEveningAzkar.json; sourceTree = "<group>"; };
+		075DDA892842CDB700C15348 /* MasahefMoratala.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MasahefMoratala.json; sourceTree = "<group>"; };
+		0776E6D02854AC81007721DC /* AzkarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarModel.swift; sourceTree = "<group>"; };
+		0776E6D32854ACAC007721DC /* MorningEveningAzkar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningEveningAzkar.swift; sourceTree = "<group>"; };
+		0776E6E52854BBED007721DC /* MainAzkarTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAzkarTitleTableViewCell.swift; sourceTree = "<group>"; };
+		0776E6E62854BBED007721DC /* MainAzkarTitleTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainAzkarTitleTableViewCell.xib; sourceTree = "<group>"; };
+		0776E6ED2854BE42007721DC /* AzkarCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarCell.swift; sourceTree = "<group>"; };
+		0776E6EE2854BE42007721DC /* AzkarCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AzkarCell.xib; sourceTree = "<group>"; };
+		077F973228672456007DF88C /* CircleProgressAnimatios.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleProgressAnimatios.swift; sourceTree = "<group>"; };
+		078B91C3286B267A00BD1F26 /* FirstContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstContainerViewController.swift; sourceTree = "<group>"; };
+		078B91C6286B525500BD1F26 /* SecondContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondContainerViewController.swift; sourceTree = "<group>"; };
+		078B91D1286B69C600BD1F26 /* ThirdContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdContainerViewController.swift; sourceTree = "<group>"; };
+		078B91D5286B96C100BD1F26 /* SebhaAzkarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SebhaAzkarListViewController.swift; sourceTree = "<group>"; };
+		07995A302848571A008C2A57 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		07A2747F2852F6B30004C96E /* MainAzkarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainAzkarViewController.swift; sourceTree = "<group>"; };
+		07A274802852F6B30004C96E /* DetailedAzkarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailedAzkarViewController.swift; sourceTree = "<group>"; };
+		07A9E319283D0818008EA4D3 /* QuranMetaJSON.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = QuranMetaJSON.json; sourceTree = "<group>"; };
+		07A9E321283DAB41008EA4D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		07B6F0AA283C69920074B49A /* GetDataFromJsonFile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetDataFromJsonFile.swift; sourceTree = "<group>"; };
+		07B81F42286CCA530085AF48 /* FourthConatinerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthConatinerViewController.swift; sourceTree = "<group>"; };
+		07BA38D02852A0D000136BBE /* TimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeManager.swift; sourceTree = "<group>"; };
+		07C538262847F4B800C19C22 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		07C5382B284820C700C19C22 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		07CB82EC2839AA3600E23D8A /* Muslim Day.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Muslim Day.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07CB82EF2839AA3600E23D8A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		07CB82F12839AA3600E23D8A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		07CB82F32839AA3600E23D8A /* QuranViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuranViewController.swift; sourceTree = "<group>"; };
+		07CB82F62839AA3600E23D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		07CB82FB2839AA3D00E23D8A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		07CB82FD2839AA3D00E23D8A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		07CB830C2839AC1700E23D8A /* QuranCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuranCell.xib; sourceTree = "<group>"; };
+		07CB830F2839AC2600E23D8A /* QuranCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranCell.swift; sourceTree = "<group>"; };
+		07CB83162839AD0700E23D8A /* Almeekly.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Almeekly.swift; sourceTree = "<group>"; };
+		07F40FF0284401C200FFD57E /* MoshafMoratalRecitation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoshafMoratalRecitation.swift; sourceTree = "<group>"; };
+		07F40FF92844147F00FFD57E /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		07F40FFA2844147F00FFD57E /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		07F40FFF284445D200FFD57E /* ReciterMp3Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReciterMp3Model.swift; sourceTree = "<group>"; };
+		07FAED812839B22300B53237 /* QuranData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuranData.swift; sourceTree = "<group>"; };
+		07FAED882839B8F300B53237 /* AzanApiRoute.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzanApiRoute.swift; sourceTree = "<group>"; };
+		07FAED892839B8F300B53237 /* AppError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		07FAED8A2839B8F300B53237 /* ApiMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiMethod.swift; sourceTree = "<group>"; };
+		07FAED8B2839B8F300B53237 /* NetworkService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		07FAED8C2839B8F300B53237 /* APIResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIResponse.swift; sourceTree = "<group>"; };
+		07FAED942839D18700B53237 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		1A3AE8D4009D85E97BA33D92 /* Pods_Muslim_Day.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Muslim_Day.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C673A9A0ABE2A036F5B786D /* Pods-Muslim Day.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muslim Day.debug.xcconfig"; path = "Target Support Files/Pods-Muslim Day/Pods-Muslim Day.debug.xcconfig"; sourceTree = "<group>"; };
+		A24ACE7E3C9FE252743DCC73 /* Pods-playSound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playSound.release.xcconfig"; path = "Target Support Files/Pods-playSound/Pods-playSound.release.xcconfig"; sourceTree = "<group>"; };
+		A55B99197A14F87E22C9CFE4 /* Pods-playSound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-playSound.debug.xcconfig"; path = "Target Support Files/Pods-playSound/Pods-playSound.debug.xcconfig"; sourceTree = "<group>"; };
+		D97F7599A7496E4601057152 /* Pods-Muslim Day.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Muslim Day.release.xcconfig"; path = "Target Support Files/Pods-Muslim Day/Pods-Muslim Day.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07CB82E92839AA3600E23D8A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5155246AA82302B094D2A7F /* Pods_Muslim_Day.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0732E0332851A45B00F41271 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				07BA38D02852A0D000136BBE /* TimeManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		073DED9C2857FFE20009F2DA /* Quran */ = {
+			isa = PBXGroup;
+			children = (
+				07411F1D2856E481004891F9 /* VerticalIconTextButton.swift */,
+				073DED992857DD870009F2DA /* View.xib */,
+			);
+			path = Quran;
+			sourceTree = "<group>";
+		};
+		073DED9D2857FFFD0009F2DA /* Azkar */ = {
+			isa = PBXGroup;
+			children = (
+				073DED9E285800290009F2DA /* AzkarCustomButton.swift */,
+				073DEDA128580E8C0009F2DA /* AzkarView.xib */,
+			);
+			path = Azkar;
+			sourceTree = "<group>";
+		};
+		073DEDA4285811F40009F2DA /* Sebha */ = {
+			isa = PBXGroup;
+			children = (
+				073DEDA52858122E0009F2DA /* SebhaCustomButton.swift */,
+				073DEDA9285812700009F2DA /* SebhaView.xib */,
+			);
+			path = Sebha;
+			sourceTree = "<group>";
+		};
+		073DEDAC285814A90009F2DA /* Qebla */ = {
+			isa = PBXGroup;
+			children = (
+				073DEDAD285814C30009F2DA /* QeblaCustomButton.swift */,
+				073DEDB0285814EF0009F2DA /* QeblaView.xib */,
+			);
+			path = Qebla;
+			sourceTree = "<group>";
+		};
+		0752DA752847E263005EBBF0 /* AthanModel */ = {
+			isa = PBXGroup;
+			children = (
+				0752DA772847E282005EBBF0 /* PrayerTiming.swift */,
+				0752DA7F2847E282005EBBF0 /* TimingData.swift */,
+				0752DA822847E282005EBBF0 /* Timings.swift */,
+				0752DA7B2847E282005EBBF0 /* Datea.swift */,
+				0752DA762847E282005EBBF0 /* Designation.swift */,
+				0752DA782847E282005EBBF0 /* Gregorian.swift */,
+				0752DA812847E282005EBBF0 /* Hijri.swift */,
+				0752DA7D2847E282005EBBF0 /* Location.swift */,
+				0752DA802847E282005EBBF0 /* Meta.swift */,
+				0752DA792847E282005EBBF0 /* Method.swift */,
+				0752DA832847E283005EBBF0 /* Month.swift */,
+				0752DA7A2847E282005EBBF0 /* Offset.swift */,
+				0752DA7E2847E282005EBBF0 /* Params.swift */,
+				0752DA7C2847E282005EBBF0 /* Weekday.swift */,
+			);
+			path = AthanModel;
+			sourceTree = "<group>";
+		};
+		075DDA8C2842CE5000C15348 /* GetDataFromJSON */ = {
+			isa = PBXGroup;
+			children = (
+				07B6F0AA283C69920074B49A /* GetDataFromJsonFile.swift */,
+			);
+			path = GetDataFromJSON;
+			sourceTree = "<group>";
+		};
+		0776E6E42854BBA2007721DC /* MainAzkarTitleTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				0776E6E52854BBED007721DC /* MainAzkarTitleTableViewCell.swift */,
+				0776E6E62854BBED007721DC /* MainAzkarTitleTableViewCell.xib */,
+			);
+			path = MainAzkarTitleTableViewCell;
+			sourceTree = "<group>";
+		};
+		0776E6EC2854BE03007721DC /* AzkarCell */ = {
+			isa = PBXGroup;
+			children = (
+				0776E6ED2854BE42007721DC /* AzkarCell.swift */,
+				0776E6EE2854BE42007721DC /* AzkarCell.xib */,
+			);
+			path = AzkarCell;
+			sourceTree = "<group>";
+		};
+		077F97312867242E007DF88C /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				077F973228672456007DF88C /* CircleProgressAnimatios.swift */,
+			);
+			path = Animations;
+			sourceTree = "<group>";
+		};
+		07B6F0A4283C5C6C0074B49A /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				075DDA892842CDB700C15348 /* MasahefMoratala.json */,
+				075DDA822842B7A800C15348 /* AllAzkarTitles.json */,
+				075DDA852842C02300C15348 /* MorrningEveningAzkar.json */,
+				07A9E319283D0818008EA4D3 /* QuranMetaJSON.json */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		07B81F45286CCA600085AF48 /* Containers */ = {
+			isa = PBXGroup;
+			children = (
+				078B91C3286B267A00BD1F26 /* FirstContainerViewController.swift */,
+				078B91C6286B525500BD1F26 /* SecondContainerViewController.swift */,
+				078B91D1286B69C600BD1F26 /* ThirdContainerViewController.swift */,
+				07B81F42286CCA530085AF48 /* FourthConatinerViewController.swift */,
+			);
+			path = Containers;
+			sourceTree = "<group>";
+		};
+		07C5382A2848209B00C19C22 /* CardView */ = {
+			isa = PBXGroup;
+			children = (
+				07C5382B284820C700C19C22 /* CardView.swift */,
+			);
+			path = CardView;
+			sourceTree = "<group>";
+		};
+		07CB82E32839AA3600E23D8A = {
+			isa = PBXGroup;
+			children = (
+				07CB82EE2839AA3600E23D8A /* Muslim Day */,
+				07CB82ED2839AA3600E23D8A /* Products */,
+				9E34C2631388EED8112CCA05 /* Pods */,
+				4DC9999982D3DBBDF195EE11 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		07CB82ED2839AA3600E23D8A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				07CB82EC2839AA3600E23D8A /* Muslim Day.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07CB82EE2839AA3600E23D8A /* Muslim Day */ = {
+			isa = PBXGroup;
+			children = (
+				077F97312867242E007DF88C /* Animations */,
+				0732E0332851A45B00F41271 /* Managers */,
+				075DDA8C2842CE5000C15348 /* GetDataFromJSON */,
+				07FAED872839B8C500B53237 /* NetworkingService */,
+				07B6F0A4283C5C6C0074B49A /* resources */,
+				07CB83142839ACD300E23D8A /* Models */,
+				07CB83042839ABA900E23D8A /* CustomCells */,
+				07A9E321283DAB41008EA4D3 /* Assets.xcassets */,
+				07CB82EF2839AA3600E23D8A /* AppDelegate.swift */,
+				07CB82F12839AA3600E23D8A /* SceneDelegate.swift */,
+				07FAED852839B67500B53237 /* Controllers */,
+				07CB82F52839AA3600E23D8A /* Main.storyboard */,
+				07CB82FA2839AA3D00E23D8A /* LaunchScreen.storyboard */,
+				07CB82FD2839AA3D00E23D8A /* Info.plist */,
+			);
+			path = "Muslim Day";
+			sourceTree = "<group>";
+		};
+		07CB83042839ABA900E23D8A /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				0776E6EC2854BE03007721DC /* AzkarCell */,
+				0776E6E42854BBA2007721DC /* MainAzkarTitleTableViewCell */,
+				07F75E8E284AE0380040FF57 /* Custom Button */,
+				07C5382A2848209B00C19C22 /* CardView */,
+				07F40FF82844144200FFD57E /* SideMenu */,
+				07CB83052839ABBE00E23D8A /* QuranViewCell */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		07CB83052839ABBE00E23D8A /* QuranViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				07CB830F2839AC2600E23D8A /* QuranCell.swift */,
+				07CB830C2839AC1700E23D8A /* QuranCell.xib */,
+			);
+			path = QuranViewCell;
+			sourceTree = "<group>";
+		};
+		07CB83142839ACD300E23D8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0776E6D02854AC81007721DC /* AzkarModel.swift */,
+				0776E6D32854ACAC007721DC /* MorningEveningAzkar.swift */,
+				0752DA752847E263005EBBF0 /* AthanModel */,
+				07CB83162839AD0700E23D8A /* Almeekly.swift */,
+				07FAED812839B22300B53237 /* QuranData.swift */,
+				07F40FF0284401C200FFD57E /* MoshafMoratalRecitation.swift */,
+				07F40FFF284445D200FFD57E /* ReciterMp3Model.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		07F40FF82844144200FFD57E /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				07F40FF92844147F00FFD57E /* SideMenuTableViewCell.swift */,
+				07F40FFA2844147F00FFD57E /* SideMenuTableViewCell.xib */,
+			);
+			path = SideMenu;
+			sourceTree = "<group>";
+		};
+		07F75E8E284AE0380040FF57 /* Custom Button */ = {
+			isa = PBXGroup;
+			children = (
+				073DEDAC285814A90009F2DA /* Qebla */,
+				073DEDA4285811F40009F2DA /* Sebha */,
+				073DED9D2857FFFD0009F2DA /* Azkar */,
+				073DED9C2857FFE20009F2DA /* Quran */,
+			);
+			path = "Custom Button";
+			sourceTree = "<group>";
+		};
+		07FAED852839B67500B53237 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				07C538262847F4B800C19C22 /* HomeViewController.swift */,
+				07CB82F32839AA3600E23D8A /* QuranViewController.swift */,
+				073DEDB92858310E0009F2DA /* SebhaViewController.swift */,
+				07A2747F2852F6B30004C96E /* MainAzkarViewController.swift */,
+				07A274802852F6B30004C96E /* DetailedAzkarViewController.swift */,
+				07FAED942839D18700B53237 /* PlayerViewController.swift */,
+				0700DC9828457B920092CEFA /* RecitersViewController.swift */,
+				078B91D5286B96C100BD1F26 /* SebhaAzkarListViewController.swift */,
+				07995A302848571A008C2A57 /* TabBarViewController.swift */,
+				07B81F45286CCA600085AF48 /* Containers */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		07FAED872839B8C500B53237 /* NetworkingService */ = {
+			isa = PBXGroup;
+			children = (
+				07FAED8B2839B8F300B53237 /* NetworkService.swift */,
+				07FAED8C2839B8F300B53237 /* APIResponse.swift */,
+				07FAED892839B8F300B53237 /* AppError.swift */,
+				07FAED8A2839B8F300B53237 /* ApiMethod.swift */,
+				07FAED882839B8F300B53237 /* AzanApiRoute.swift */,
+			);
+			path = NetworkingService;
+			sourceTree = "<group>";
+		};
+		4DC9999982D3DBBDF195EE11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A3AE8D4009D85E97BA33D92 /* Pods_Muslim_Day.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E34C2631388EED8112CCA05 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A55B99197A14F87E22C9CFE4 /* Pods-playSound.debug.xcconfig */,
+				A24ACE7E3C9FE252743DCC73 /* Pods-playSound.release.xcconfig */,
+				5C673A9A0ABE2A036F5B786D /* Pods-Muslim Day.debug.xcconfig */,
+				D97F7599A7496E4601057152 /* Pods-Muslim Day.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		07CB82EB2839AA3600E23D8A /* Muslim Day */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07CB83002839AA3D00E23D8A /* Build configuration list for PBXNativeTarget "Muslim Day" */;
+			buildPhases = (
+				3F05640C442D068E1E48D00E /* [CP] Check Pods Manifest.lock */,
+				07CB82E82839AA3600E23D8A /* Sources */,
+				07CB82E92839AA3600E23D8A /* Frameworks */,
+				07CB82EA2839AA3600E23D8A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Muslim Day";
+			productName = playSound;
+			productReference = 07CB82EC2839AA3600E23D8A /* Muslim Day.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		07CB82E42839AA3600E23D8A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					07CB82EB2839AA3600E23D8A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 07CB82E72839AA3600E23D8A /* Build configuration list for PBXProject "Muslim Day" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 07CB82E32839AA3600E23D8A;
+			productRefGroup = 07CB82ED2839AA3600E23D8A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				07CB82EB2839AA3600E23D8A /* Muslim Day */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		07CB82EA2839AA3600E23D8A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07CB82FC2839AA3D00E23D8A /* LaunchScreen.storyboard in Resources */,
+				07CB82F72839AA3600E23D8A /* Main.storyboard in Resources */,
+				073DEDAA285812700009F2DA /* SebhaView.xib in Resources */,
+				075DDA8A2842CDB700C15348 /* MasahefMoratala.json in Resources */,
+				07A9E322283DAB41008EA4D3 /* Assets.xcassets in Resources */,
+				073DEDA228580E8C0009F2DA /* AzkarView.xib in Resources */,
+				073DED9A2857DD870009F2DA /* View.xib in Resources */,
+				07A9E31A283D0818008EA4D3 /* QuranMetaJSON.json in Resources */,
+				0776E6E82854BBED007721DC /* MainAzkarTitleTableViewCell.xib in Resources */,
+				07CB830D2839AC1700E23D8A /* QuranCell.xib in Resources */,
+				07F40FFC2844147F00FFD57E /* SideMenuTableViewCell.xib in Resources */,
+				075DDA832842B7A800C15348 /* AllAzkarTitles.json in Resources */,
+				073DEDB1285814EF0009F2DA /* QeblaView.xib in Resources */,
+				075DDA862842C02300C15348 /* MorrningEveningAzkar.json in Resources */,
+				0776E6F02854BE42007721DC /* AzkarCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3F05640C442D068E1E48D00E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Muslim Day-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		07CB82E82839AA3600E23D8A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07FAED902839B8F300B53237 /* NetworkService.swift in Sources */,
+				07FAED952839D18700B53237 /* PlayerViewController.swift in Sources */,
+				073DEDA62858122E0009F2DA /* SebhaCustomButton.swift in Sources */,
+				0752DA8A2847E283005EBBF0 /* Weekday.swift in Sources */,
+				07CB83172839AD0700E23D8A /* Almeekly.swift in Sources */,
+				07995A312848571A008C2A57 /* TabBarViewController.swift in Sources */,
+				07F41000284445D200FFD57E /* ReciterMp3Model.swift in Sources */,
+				07CB82F42839AA3600E23D8A /* QuranViewController.swift in Sources */,
+				0752DA8B2847E283005EBBF0 /* Location.swift in Sources */,
+				0776E6D42854ACAC007721DC /* MorningEveningAzkar.swift in Sources */,
+				0752DA902847E283005EBBF0 /* Timings.swift in Sources */,
+				07CB83102839AC2600E23D8A /* QuranCell.swift in Sources */,
+				07C538272847F4B800C19C22 /* HomeViewController.swift in Sources */,
+				0752DA8E2847E283005EBBF0 /* Meta.swift in Sources */,
+				078B91D2286B69C600BD1F26 /* ThirdContainerViewController.swift in Sources */,
+				0700DC9928457B920092CEFA /* RecitersViewController.swift in Sources */,
+				07FAED822839B22300B53237 /* QuranData.swift in Sources */,
+				0752DA872847E283005EBBF0 /* Method.swift in Sources */,
+				0752DA8D2847E283005EBBF0 /* TimingData.swift in Sources */,
+				07C5382C284820C700C19C22 /* CardView.swift in Sources */,
+				07BA38D12852A0D000136BBE /* TimeManager.swift in Sources */,
+				0752DA8C2847E283005EBBF0 /* Params.swift in Sources */,
+				073DEDBA2858310E0009F2DA /* SebhaViewController.swift in Sources */,
+				07FAED912839B8F300B53237 /* APIResponse.swift in Sources */,
+				07F40FF1284401C200FFD57E /* MoshafMoratalRecitation.swift in Sources */,
+				0752DA862847E283005EBBF0 /* Gregorian.swift in Sources */,
+				0776E6D12854AC81007721DC /* AzkarModel.swift in Sources */,
+				07FAED8E2839B8F300B53237 /* AppError.swift in Sources */,
+				07F40FFB2844147F00FFD57E /* SideMenuTableViewCell.swift in Sources */,
+				07CB82F02839AA3600E23D8A /* AppDelegate.swift in Sources */,
+				07A274812852F6B40004C96E /* MainAzkarViewController.swift in Sources */,
+				078B91C4286B267A00BD1F26 /* FirstContainerViewController.swift in Sources */,
+				0752DA912847E283005EBBF0 /* Month.swift in Sources */,
+				0776E6EF2854BE42007721DC /* AzkarCell.swift in Sources */,
+				078B91C7286B525500BD1F26 /* SecondContainerViewController.swift in Sources */,
+				0752DA842847E283005EBBF0 /* Designation.swift in Sources */,
+				073DED9F285800290009F2DA /* AzkarCustomButton.swift in Sources */,
+				07FAED8D2839B8F300B53237 /* AzanApiRoute.swift in Sources */,
+				0752DA852847E283005EBBF0 /* PrayerTiming.swift in Sources */,
+				078B91D6286B96C100BD1F26 /* SebhaAzkarListViewController.swift in Sources */,
+				07B81F43286CCA530085AF48 /* FourthConatinerViewController.swift in Sources */,
+				0776E6E72854BBED007721DC /* MainAzkarTitleTableViewCell.swift in Sources */,
+				077F973328672456007DF88C /* CircleProgressAnimatios.swift in Sources */,
+				0752DA882847E283005EBBF0 /* Offset.swift in Sources */,
+				073DEDAE285814C30009F2DA /* QeblaCustomButton.swift in Sources */,
+				07A274822852F6B40004C96E /* DetailedAzkarViewController.swift in Sources */,
+				07CB82F22839AA3600E23D8A /* SceneDelegate.swift in Sources */,
+				0752DA8F2847E283005EBBF0 /* Hijri.swift in Sources */,
+				0752DA892847E283005EBBF0 /* Datea.swift in Sources */,
+				07411F1E2856E481004891F9 /* VerticalIconTextButton.swift in Sources */,
+				07B6F0AB283C69920074B49A /* GetDataFromJsonFile.swift in Sources */,
+				07FAED8F2839B8F300B53237 /* ApiMethod.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		07CB82F52839AA3600E23D8A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CB82F62839AA3600E23D8A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		07CB82FA2839AA3D00E23D8A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				07CB82FB2839AA3D00E23D8A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		07CB82FE2839AA3D00E23D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		07CB82FF2839AA3D00E23D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		07CB83012839AA3D00E23D8A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C673A9A0ABE2A036F5B786D /* Pods-Muslim Day.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GW2UHSJGK;
+				INFOPLIST_FILE = "Muslim Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.playSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		07CB83022839AA3D00E23D8A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D97F7599A7496E4601057152 /* Pods-Muslim Day.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8GW2UHSJGK;
+				INFOPLIST_FILE = "Muslim Day/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.playSound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		07CB82E72839AA3600E23D8A /* Build configuration list for PBXProject "Muslim Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CB82FE2839AA3D00E23D8A /* Debug */,
+				07CB82FF2839AA3D00E23D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		07CB83002839AA3D00E23D8A /* Build configuration list for PBXNativeTarget "Muslim Day" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07CB83012839AA3D00E23D8A /* Debug */,
+				07CB83022839AA3D00E23D8A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 07CB82E42839AA3600E23D8A /* Project object */;
+}

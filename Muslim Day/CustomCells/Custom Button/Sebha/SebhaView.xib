@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SebhaCustomButton" customModule="playSound" customModuleProvider="target">
+            <connections>
+                <outlet property="buttonImage" destination="pbf-wQ-akd" id="y59-Nq-uaS"/>
+                <outlet property="sebhaCustomButton" destination="lnC-y0-ujd" id="U5M-Pk-VPF"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view userInteractionEnabled="NO" contentMode="scaleToFill" id="lnC-y0-ujd" userLabel="SebhaView">
+            <rect key="frame" x="0.0" y="0.0" width="107" height="113"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Sebha1024" translatesAutoresizingMaskIntoConstraints="NO" id="pbf-wQ-akd">
+                    <rect key="frame" x="13.5" y="4" width="80" height="80"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="80" id="50B-Tx-QXF"/>
+                        <constraint firstAttribute="height" constant="80" id="VGA-jt-scl"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Al-Sebha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSK-8n-ICF">
+                    <rect key="frame" x="13.5" y="89" width="80" height="17"/>
+                    <accessibility key="accessibilityConfiguration">
+                        <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                    </accessibility>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="17" id="mKO-jl-TMf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="cIR-lS-OIp"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <accessibility key="accessibilityConfiguration">
+                <accessibilityTraits key="traits" notEnabled="YES"/>
+            </accessibility>
+            <constraints>
+                <constraint firstItem="pbf-wQ-akd" firstAttribute="top" secondItem="lnC-y0-ujd" secondAttribute="top" constant="4" id="0eM-Q5-NDv"/>
+                <constraint firstItem="pbf-wQ-akd" firstAttribute="centerX" secondItem="lnC-y0-ujd" secondAttribute="centerX" id="K1U-vJ-ZEJ"/>
+                <constraint firstItem="dSK-8n-ICF" firstAttribute="top" secondItem="pbf-wQ-akd" secondAttribute="bottom" constant="5" id="asW-H1-pnO"/>
+                <constraint firstItem="dSK-8n-ICF" firstAttribute="leading" secondItem="pbf-wQ-akd" secondAttribute="leading" id="fAK-qK-t4e"/>
+                <constraint firstItem="dSK-8n-ICF" firstAttribute="trailing" secondItem="pbf-wQ-akd" secondAttribute="trailing" id="zRj-Ie-gSb"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-187.68115942028987" y="-118.19196428571428"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="Sebha1024" width="1024" height="1024"/>
+    </resources>
+</document>

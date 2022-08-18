@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="QuranCell" rowHeight="115" id="KGk-i7-Jjw" customClass="QuranCell" customModule="playSound" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="571" height="115"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="571" height="115"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vlq-U7-1s9" userLabel="Back View">
+                        <rect key="frame" x="0.0" y="3" width="571" height="109"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sura Name Mean" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fM-J1-uRs">
+                                <rect key="frame" x="127" y="57" width="130.5" height="47"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="vSu-ki-83v"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Eng Sura Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DRq-gg-Leu">
+                                <rect key="frame" x="127" y="8" width="117.5" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="47" id="hfI-Ce-PYS"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.19257336850000001" green="0.19907629490000001" blue="0.2352989912" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="8fM-J1-uRs" secondAttribute="bottom" constant="5" id="2yx-He-ySn"/>
+                            <constraint firstItem="DRq-gg-Leu" firstAttribute="top" secondItem="vlq-U7-1s9" secondAttribute="top" constant="8" id="XcR-it-77l"/>
+                            <constraint firstItem="DRq-gg-Leu" firstAttribute="leading" secondItem="vlq-U7-1s9" secondAttribute="leading" constant="127" id="eOd-BB-Awe"/>
+                            <constraint firstItem="8fM-J1-uRs" firstAttribute="leading" secondItem="DRq-gg-Leu" secondAttribute="leading" id="ksb-V6-BXj"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Arabic Sura Name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dbl-Sr-27w">
+                        <rect key="frame" x="401.5" y="46" width="152.5" height="23"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                        <color key="textColor" red="0.02832645923" green="0.64373672010000005" blue="0.69090467690000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Pf9-FK-CsS">
+                        <rect key="frame" x="15" y="32.5" width="50" height="50"/>
+                        <color key="backgroundColor" red="0.1099481061" green="0.1094065085" blue="0.12549236420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="nfj-VJ-sPE"/>
+                            <constraint firstAttribute="width" constant="50" id="ukR-I7-LK5"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" red="0.1099481061" green="0.1094065085" blue="0.12549236420000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                <constraints>
+                    <constraint firstItem="Pf9-FK-CsS" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="0T2-hF-Jl3"/>
+                    <constraint firstItem="Pf9-FK-CsS" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="40l-zR-EVI"/>
+                    <constraint firstAttribute="trailing" secondItem="Dbl-Sr-27w" secondAttribute="trailing" constant="17" id="Bsy-8G-pie"/>
+                    <constraint firstItem="vlq-U7-1s9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="3" id="Gk9-VK-mMs"/>
+                    <constraint firstAttribute="bottom" secondItem="vlq-U7-1s9" secondAttribute="bottom" constant="3" id="Rx0-gU-ibl"/>
+                    <constraint firstItem="vlq-U7-1s9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="SHA-Sw-v1I"/>
+                    <constraint firstItem="Dbl-Sr-27w" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sxU-7H-cvg"/>
+                    <constraint firstAttribute="trailing" secondItem="vlq-U7-1s9" secondAttribute="trailing" id="wW0-rs-uix"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="arabicSuraName" destination="Dbl-Sr-27w" id="mNU-VO-RoG"/>
+                <outlet property="backView" destination="vlq-U7-1s9" id="0cE-WE-A2Y"/>
+                <outlet property="englishSuraName" destination="DRq-gg-Leu" id="iJ4-IL-x1l"/>
+                <outlet property="noOfSura" destination="Pf9-FK-CsS" id="vzT-rH-C5P"/>
+                <outlet property="suraMeaning" destination="8fM-J1-uRs" id="dLl-Gk-LsB"/>
+            </connections>
+            <point key="canvasLocation" x="229.71014492753625" y="116.18303571428571"/>
+        </tableViewCell>
+    </objects>
+</document>

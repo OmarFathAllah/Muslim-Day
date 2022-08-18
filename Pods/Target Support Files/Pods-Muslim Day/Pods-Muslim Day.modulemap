@@ -1,0 +1,6 @@
+framework module Pods_Muslim_Day {
+  umbrella header "Pods-Muslim Day-umbrella.h"
+
+  export *
+  module * { export * }
+}
