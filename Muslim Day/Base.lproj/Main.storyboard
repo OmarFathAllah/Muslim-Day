@@ -342,7 +342,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="gZW-PG-mIr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1258" y="1120"/>
+            <point key="canvasLocation" x="1258" y="1130"/>
         </scene>
         <!--Reciters View Controller-->
         <scene sceneID="7XN-aj-fLG">
@@ -413,10 +413,10 @@
             </objects>
             <point key="canvasLocation" x="-546.37681159420299" y="-305.35714285714283"/>
         </scene>
-        <!--First View Controller-->
+        <!--Home View Controller-->
         <scene sceneID="Xqa-2u-dRZ">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="mZJ-wd-KCK" userLabel="First View Controller" customClass="HomeViewController" customModule="Muslim_Day" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController modalPresentationStyle="fullScreen" id="mZJ-wd-KCK" userLabel="Home View Controller" customClass="HomeViewController" customModule="Muslim_Day" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="6NR-h3-0Mh">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,141 +444,6 @@
                                     <action selector="getCurrentLocationPressed:" destination="mZJ-wd-KCK" eventType="touchUpInside" id="sru-sC-jgL"/>
                                 </connections>
                             </button>
-                            <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" distribution="fillEqually" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="mFQ-Hd-1Q0">
-                                <rect key="frame" x="0.0" y="438" width="414" height="75"/>
-                                <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="BGg-EZ-D63">
-                                        <rect key="frame" x="0.0" y="0.0" width="66.5" height="75"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Isha" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qIh-kD-WQZ">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="12.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="zmP-DU-aAw">
-                                                <rect key="frame" x="0.0" y="25" width="66.5" height="12"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yhe-9T-L08">
-                                                <rect key="frame" x="0.0" y="49.5" width="66.5" height="25.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.90941506839999997" green="0.90941506839999997" blue="0.90941506839999997" alpha="0.4946257715094034" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="c0k-Ia-Xkv">
-                                        <rect key="frame" x="69.5" y="0.0" width="66.5" height="75"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Maghrib" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Xsq-z6-zCb">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="12"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="15"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunset" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="ljJ-IA-l8x">
-                                                <rect key="frame" x="0.0" y="22.5" width="66.5" height="12.5"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nbq-3n-FI8">
-                                                <rect key="frame" x="0.0" y="49" width="66.5" height="26"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.90941506839999997" green="0.90941506839999997" blue="0.90941506839999997" alpha="0.3077392117089644" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="1Nm-Sw-i6O">
-                                        <rect key="frame" x="139" y="0.0" width="66.5" height="75"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Asr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kvc-0M-Zmf">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="12.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun.haze" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="9HH-xh-Bvj">
-                                                <rect key="frame" x="0.0" y="24" width="66.5" height="15"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7s-Xz-B5d">
-                                                <rect key="frame" x="0.0" y="49.5" width="66.5" height="25.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.90941506839999997" green="0.90941506839999997" blue="0.90941506839999997" alpha="0.3077392117089644" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="9ni-Cu-K5o">
-                                        <rect key="frame" x="208.5" y="0.0" width="66.5" height="75"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Zuhr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SJr-WV-GfA">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="12.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sun.min" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="hOn-9E-c70">
-                                                <rect key="frame" x="0.0" y="25" width="66.5" height="12"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qVm-Q1-I9a">
-                                                <rect key="frame" x="0.0" y="49.5" width="66.5" height="25.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.90941506839999997" green="0.90941506839999997" blue="0.90941506839999997" alpha="0.3077392117089644" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="rcs-fd-kzy">
-                                        <rect key="frame" x="278" y="0.0" width="66.5" height="75"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shrouk" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ihh-Xo-06r">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="12.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunrise" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="iIq-6x-nY5">
-                                                <rect key="frame" x="0.0" y="23" width="66.5" height="12.5"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dSh-Mq-lah">
-                                                <rect key="frame" x="0.0" y="49.5" width="66.5" height="25.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.90941506839999997" green="0.90941506839999997" blue="0.90941506839999997" alpha="0.3077392117089644" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="WHC-6M-JQT">
-                                        <rect key="frame" x="347.5" y="0.0" width="66.5" height="75"/>
-                                        <subviews>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Fajr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XE8-Yl-hVR">
-                                                <rect key="frame" x="0.0" y="0.0" width="66.5" height="12.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="moon.circle.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="BBP-cE-lDK">
-                                                <rect key="frame" x="0.0" y="25" width="66.5" height="12"/>
-                                            </imageView>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vp2-99-Xbg">
-                                                <rect key="frame" x="0.0" y="49.5" width="66.5" height="25.5"/>
-                                                <fontDescription key="fontDescription" name="Kefa-Regular" family="Kefa" pointSize="16"/>
-                                                <nil key="textColor"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                        </subviews>
-                                        <color key="backgroundColor" red="0.90941506839999997" green="0.90941506839999997" blue="0.90941506839999997" alpha="0.3077392117089644" colorSpace="custom" customColorSpace="displayP3"/>
-                                    </stackView>
-                                </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="75" id="bFG-L6-QEi"/>
-                                </constraints>
-                            </stackView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kDV-by-JUr" userLabel="Current Date View" customClass="CardView" customModule="Muslim_Day" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="376" width="414" height="60"/>
                                 <subviews>
@@ -650,6 +515,29 @@
                                     <constraint firstItem="cCc-Rn-XSa" firstAttribute="leading" secondItem="rDD-s3-RFv" secondAttribute="trailing" constant="8" symbolic="YES" id="xyb-fI-ibd"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RRU-eC-d2b">
+                                <rect key="frame" x="0.0" y="436" width="414" height="90"/>
+                                <subviews>
+                                    <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="m9Z-1h-LhW">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="90"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="10" minimumInteritemSpacing="10" id="8j2-1C-GY3">
+                                            <size key="itemSize" width="128" height="128"/>
+                                            <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                            <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                            <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                        </collectionViewFlowLayout>
+                                        <cells/>
+                                    </collectionView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="m9Z-1h-LhW" secondAttribute="bottom" id="8ym-CG-2Fy"/>
+                                    <constraint firstItem="m9Z-1h-LhW" firstAttribute="leading" secondItem="RRU-eC-d2b" secondAttribute="leading" id="NOC-Rk-Fyn"/>
+                                    <constraint firstAttribute="trailing" secondItem="m9Z-1h-LhW" secondAttribute="trailing" id="aQO-lO-tSa"/>
+                                    <constraint firstItem="m9Z-1h-LhW" firstAttribute="top" secondItem="RRU-eC-d2b" secondAttribute="top" id="frl-yk-Cg5"/>
+                                </constraints>
+                            </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Next Prayer" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lgv-D8-Pky">
                                 <rect key="frame" x="20" y="181" width="75.5" height="17"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
@@ -666,7 +554,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="tmr-ff-K0g">
-                                <rect key="frame" x="188.5" y="457" width="37" height="37"/>
+                                <rect key="frame" x="0.0" y="376" width="414" height="150"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -702,6 +590,7 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                             <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="100" translatesAutoresizingMaskIntoConstraints="NO" id="xcN-ia-zeh" userLabel="Sebha Stack View">
                                 <rect key="frame" x="47" y="683" width="320" height="110"/>
@@ -722,35 +611,39 @@
                                         </connections>
                                     </button>
                                 </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="A9s-Ae-clx"/>
                         <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="tmr-ff-K0g" firstAttribute="centerY" secondItem="mFQ-Hd-1Q0" secondAttribute="centerY" id="0BG-Bs-SIn"/>
+                            <constraint firstItem="RRU-eC-d2b" firstAttribute="leading" secondItem="A9s-Ae-clx" secondAttribute="leading" id="0oj-5b-NUe"/>
+                            <constraint firstItem="tmr-ff-K0g" firstAttribute="leading" secondItem="A9s-Ae-clx" secondAttribute="leading" id="6uj-2o-WLA"/>
                             <constraint firstItem="7tl-fz-5DI" firstAttribute="top" secondItem="A9s-Ae-clx" secondAttribute="top" constant="8" id="8OA-q1-eSq"/>
                             <constraint firstItem="JUH-Yz-OMj" firstAttribute="top" secondItem="Pr3-l2-0FO" secondAttribute="bottom" constant="2" id="A5l-qD-TaZ"/>
+                            <constraint firstItem="RRU-eC-d2b" firstAttribute="height" secondItem="6NR-h3-0Mh" secondAttribute="height" multiplier="0.100446" id="Ao2-02-CgA"/>
                             <constraint firstItem="Chk-SG-avS" firstAttribute="trailing" secondItem="A9s-Ae-clx" secondAttribute="trailing" id="AyL-CV-u1p"/>
                             <constraint firstItem="Lgv-D8-Pky" firstAttribute="leading" secondItem="A9s-Ae-clx" secondAttribute="leading" constant="20" id="D4M-hA-pkJ"/>
-                            <constraint firstItem="mFQ-Hd-1Q0" firstAttribute="leading" secondItem="A9s-Ae-clx" secondAttribute="leading" id="FeD-Qc-ONQ"/>
+                            <constraint firstItem="kDV-by-JUr" firstAttribute="width" secondItem="6NR-h3-0Mh" secondAttribute="width" id="DeV-P9-prv"/>
+                            <constraint firstItem="RRU-eC-d2b" firstAttribute="top" secondItem="kDV-by-JUr" secondAttribute="bottom" id="FZG-dr-e9b"/>
                             <constraint firstAttribute="bottom" secondItem="Chk-SG-avS" secondAttribute="bottom" id="Hje-bL-6mc"/>
                             <constraint firstItem="xcN-ia-zeh" firstAttribute="top" secondItem="1YR-7R-Cn4" secondAttribute="bottom" constant="20" id="N59-sq-Ev5"/>
                             <constraint firstItem="kDV-by-JUr" firstAttribute="top" secondItem="7tl-fz-5DI" secondAttribute="bottom" constant="250" id="O6d-jc-fhT"/>
-                            <constraint firstItem="kDV-by-JUr" firstAttribute="trailing" secondItem="mFQ-Hd-1Q0" secondAttribute="trailing" id="PTU-HZ-cZb"/>
                             <constraint firstItem="Lgv-D8-Pky" firstAttribute="top" secondItem="7tl-fz-5DI" secondAttribute="bottom" constant="55" id="QrO-Lh-JAI"/>
                             <constraint firstItem="Pr3-l2-0FO" firstAttribute="leading" secondItem="A9s-Ae-clx" secondAttribute="leading" constant="20" id="RUv-Za-Dhr"/>
                             <constraint firstItem="0uE-6F-CU1" firstAttribute="bottom" secondItem="7tl-fz-5DI" secondAttribute="bottom" id="XAP-nv-HYd"/>
-                            <constraint firstItem="tmr-ff-K0g" firstAttribute="centerX" secondItem="mFQ-Hd-1Q0" secondAttribute="centerX" id="Xam-Z4-hjO"/>
-                            <constraint firstItem="mFQ-Hd-1Q0" firstAttribute="top" secondItem="kDV-by-JUr" secondAttribute="bottom" constant="2" id="Xtv-9Y-lcc"/>
                             <constraint firstItem="1YR-7R-Cn4" firstAttribute="centerX" secondItem="A9s-Ae-clx" secondAttribute="centerX" id="Zka-pS-cw9"/>
                             <constraint firstItem="Chk-SG-avS" firstAttribute="leading" secondItem="A9s-Ae-clx" secondAttribute="leading" id="Zkm-MK-Q2v"/>
-                            <constraint firstItem="A9s-Ae-clx" firstAttribute="trailing" secondItem="mFQ-Hd-1Q0" secondAttribute="trailing" id="cKj-3u-eQf"/>
+                            <constraint firstAttribute="trailing" secondItem="tmr-ff-K0g" secondAttribute="trailing" id="apl-9W-Pcd"/>
+                            <constraint firstItem="1YR-7R-Cn4" firstAttribute="top" secondItem="RRU-eC-d2b" secondAttribute="bottom" constant="27" id="bd2-R9-fSB"/>
                             <constraint firstItem="JUH-Yz-OMj" firstAttribute="leading" secondItem="A9s-Ae-clx" secondAttribute="leading" constant="80" id="cL9-9R-wLz"/>
+                            <constraint firstItem="kDV-by-JUr" firstAttribute="centerX" secondItem="A9s-Ae-clx" secondAttribute="centerX" id="cgx-5T-KV2"/>
                             <constraint firstItem="0uE-6F-CU1" firstAttribute="top" secondItem="7tl-fz-5DI" secondAttribute="top" id="gv9-fv-usb"/>
+                            <constraint firstItem="RRU-eC-d2b" firstAttribute="trailing" secondItem="A9s-Ae-clx" secondAttribute="trailing" id="h62-44-aia"/>
+                            <constraint firstItem="tmr-ff-K0g" firstAttribute="bottom" secondItem="RRU-eC-d2b" secondAttribute="bottom" id="hpP-12-3gJ"/>
                             <constraint firstItem="xcN-ia-zeh" firstAttribute="leading" secondItem="1YR-7R-Cn4" secondAttribute="leading" id="lBG-nA-eea"/>
                             <constraint firstItem="Chk-SG-avS" firstAttribute="top" secondItem="A9s-Ae-clx" secondAttribute="top" id="m0y-0n-9jk"/>
-                            <constraint firstItem="1YR-7R-Cn4" firstAttribute="top" secondItem="mFQ-Hd-1Q0" secondAttribute="bottom" constant="40" id="sbG-ip-vp0"/>
-                            <constraint firstItem="kDV-by-JUr" firstAttribute="leading" secondItem="mFQ-Hd-1Q0" secondAttribute="leading" id="ssh-4V-mQ2"/>
+                            <constraint firstItem="tmr-ff-K0g" firstAttribute="top" secondItem="kDV-by-JUr" secondAttribute="top" id="q0a-hj-xPp"/>
                             <constraint firstItem="7tl-fz-5DI" firstAttribute="trailing" secondItem="A9s-Ae-clx" secondAttribute="trailing" id="txG-h4-8kt"/>
                             <constraint firstItem="Pr3-l2-0FO" firstAttribute="top" secondItem="Lgv-D8-Pky" secondAttribute="bottom" constant="8" id="ufF-mh-qeV"/>
                             <constraint firstItem="7tl-fz-5DI" firstAttribute="leading" secondItem="0uE-6F-CU1" secondAttribute="trailing" constant="10" id="uyT-0F-gyb"/>
@@ -761,33 +654,21 @@
                     <connections>
                         <outlet property="HijriDateLabel" destination="CuI-oX-bI6" id="iEB-mY-MOz"/>
                         <outlet property="MiladiDateLabel" destination="ata-uQ-4Dm" id="qlP-On-7pB"/>
+                        <outlet property="PrayerTimesCollectionView" destination="m9Z-1h-LhW" id="4tv-Be-zsa"/>
                         <outlet property="activityIndicator" destination="tmr-ff-K0g" id="fNx-Sa-Dgz"/>
-                        <outlet property="allPrayerTimesStack" destination="mFQ-Hd-1Q0" id="DMw-Hd-Tfe"/>
                         <outlet property="allPrayersBtn" destination="VDq-Lr-yUU" id="i1m-cB-Rqg"/>
-                        <outlet property="asrStackView" destination="1Nm-Sw-i6O" id="bn1-rk-nbO"/>
-                        <outlet property="asrTime" destination="K7s-Xz-B5d" id="fve-ZI-Lmk"/>
                         <outlet property="azkarButton" destination="gMA-Cu-TSH" id="cOm-X7-zER"/>
                         <outlet property="commingPrayerTime" destination="JUH-Yz-OMj" id="XM2-Fk-nxa"/>
                         <outlet property="dayNameLabel" destination="cCc-Rn-XSa" id="ro5-Hi-uni"/>
-                        <outlet property="fajrStackView" destination="WHC-6M-JQT" id="l2q-d6-gS1"/>
-                        <outlet property="fajrTime" destination="Vp2-99-Xbg" id="jzb-T3-7M5"/>
-                        <outlet property="ishaStackView" destination="BGg-EZ-D63" id="xOu-BF-X8U"/>
-                        <outlet property="ishaTime" destination="yhe-9T-L08" id="3RF-Ud-BrP"/>
                         <outlet property="locationLabel" destination="7tl-fz-5DI" id="uWj-Ja-9Gx"/>
-                        <outlet property="maghribStackView" destination="c0k-Ia-Xkv" id="kpP-OJ-bEQ"/>
-                        <outlet property="maghribTime" destination="nbq-3n-FI8" id="1Gi-gM-bnD"/>
                         <outlet property="nowAndComingPrayer" destination="Lgv-D8-Pky" id="dhc-Wp-Je6"/>
                         <outlet property="prayerName" destination="Pr3-l2-0FO" id="eet-qc-2mY"/>
                         <outlet property="quranButton" destination="6p5-Ng-7Xb" id="FQE-Qp-KbG"/>
-                        <outlet property="shroukStackView" destination="rcs-fd-kzy" id="2pm-sn-tu4"/>
-                        <outlet property="shroukTime" destination="dSh-Mq-lah" id="NuD-2e-SAf"/>
-                        <outlet property="zuhrStackView" destination="9ni-Cu-K5o" id="i0b-BP-ads"/>
-                        <outlet property="zuhrTime" destination="qVm-Q1-I9a" id="56E-ob-qIJ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uX1-na-2yO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="419"/>
+            <point key="canvasLocation" x="347.82608695652175" y="418.52678571428572"/>
         </scene>
         <!--Settings-->
         <scene sceneID="go8-pU-fgg">
@@ -879,7 +760,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JI8-tK-cPA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="348" y="1809"/>
+            <point key="canvasLocation" x="422" y="1809"/>
         </scene>
         <!--Home-->
         <scene sceneID="j3x-3n-E82">
@@ -1325,15 +1206,10 @@
         <image name="list.bullet" catalog="system" width="128" height="88"/>
         <image name="list.bullet.rectangle" catalog="system" width="128" height="93"/>
         <image name="location" catalog="system" width="128" height="121"/>
-        <image name="moon.circle.fill" catalog="system" width="128" height="121"/>
         <image name="pause" catalog="system" width="88" height="128"/>
         <image name="play.fill" catalog="system" width="116" height="128"/>
         <image name="quran6" width="1000" height="500"/>
         <image name="return" catalog="system" width="128" height="101"/>
-        <image name="sun.haze" catalog="system" width="128" height="119"/>
-        <image name="sun.min" catalog="system" width="128" height="121"/>
-        <image name="sunrise" catalog="system" width="128" height="97"/>
-        <image name="sunset" catalog="system" width="128" height="97"/>
         <image name="x.circle" catalog="system" width="128" height="121"/>
         <systemColor name="labelColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

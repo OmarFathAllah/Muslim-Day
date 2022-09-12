@@ -32,7 +32,6 @@ class QeblaCustomButton: UIButton {
         self.addSubview(self.qeblaCustomButton)
         }
     
-    
     private func buttonComponentsInit(){
         buttonImage.layer.cornerRadius = 40
     }

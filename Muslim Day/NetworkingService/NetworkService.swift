@@ -16,7 +16,7 @@ struct NetworkService {
         request(url: url, method: .get, completion: completion)
     }
     
-    func getAzanData(url:String,parameters:[String:Any]?,completion:@escaping(Result<PrayerTiming,Error>)->Void){
+    func getAzanData(url:String,parameters:[String:Any]?,completion:@escaping(Result<PrayerTimingForMonthModel,Error>)->Void){
         request(url:url, method: .get, headers: nil, parameters: parameters, completion: completion)
         
     }

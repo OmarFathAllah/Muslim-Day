@@ -3,11 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		0700DC9928457B920092CEFA /* RecitersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0700DC9828457B920092CEFA /* RecitersViewController.swift */; };
+		0739790028CEB3B600DAB547 /* IterateTimingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073978FF28CEB3B600DAB547 /* IterateTimingModel.swift */; };
 		073DED9A2857DD870009F2DA /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073DED992857DD870009F2DA /* View.xib */; };
 		073DED9F285800290009F2DA /* AzkarCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DED9E285800290009F2DA /* AzkarCustomButton.swift */; };
 		073DEDA228580E8C0009F2DA /* AzkarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073DEDA128580E8C0009F2DA /* AzkarView.xib */; };
@@ -17,23 +18,18 @@
 		073DEDB1285814EF0009F2DA /* QeblaView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 073DEDB0285814EF0009F2DA /* QeblaView.xib */; };
 		073DEDBA2858310E0009F2DA /* SebhaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 073DEDB92858310E0009F2DA /* SebhaViewController.swift */; };
 		07411F1E2856E481004891F9 /* VerticalIconTextButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07411F1D2856E481004891F9 /* VerticalIconTextButton.swift */; };
-		0752DA842847E283005EBBF0 /* Designation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA762847E282005EBBF0 /* Designation.swift */; };
-		0752DA852847E283005EBBF0 /* PrayerTiming.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA772847E282005EBBF0 /* PrayerTiming.swift */; };
-		0752DA862847E283005EBBF0 /* Gregorian.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA782847E282005EBBF0 /* Gregorian.swift */; };
-		0752DA872847E283005EBBF0 /* Method.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA792847E282005EBBF0 /* Method.swift */; };
-		0752DA882847E283005EBBF0 /* Offset.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7A2847E282005EBBF0 /* Offset.swift */; };
-		0752DA892847E283005EBBF0 /* Datea.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7B2847E282005EBBF0 /* Datea.swift */; };
-		0752DA8A2847E283005EBBF0 /* Weekday.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7C2847E282005EBBF0 /* Weekday.swift */; };
-		0752DA8B2847E283005EBBF0 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7D2847E282005EBBF0 /* Location.swift */; };
-		0752DA8C2847E283005EBBF0 /* Params.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7E2847E282005EBBF0 /* Params.swift */; };
-		0752DA8D2847E283005EBBF0 /* TimingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA7F2847E282005EBBF0 /* TimingData.swift */; };
-		0752DA8E2847E283005EBBF0 /* Meta.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA802847E282005EBBF0 /* Meta.swift */; };
-		0752DA8F2847E283005EBBF0 /* Hijri.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA812847E282005EBBF0 /* Hijri.swift */; };
-		0752DA902847E283005EBBF0 /* Timings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA822847E282005EBBF0 /* Timings.swift */; };
-		0752DA912847E283005EBBF0 /* Month.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0752DA832847E283005EBBF0 /* Month.swift */; };
 		075DDA832842B7A800C15348 /* AllAzkarTitles.json in Resources */ = {isa = PBXBuildFile; fileRef = 075DDA822842B7A800C15348 /* AllAzkarTitles.json */; };
 		075DDA862842C02300C15348 /* MorrningEveningAzkar.json in Resources */ = {isa = PBXBuildFile; fileRef = 075DDA852842C02300C15348 /* MorrningEveningAzkar.json */; };
 		075DDA8A2842CDB700C15348 /* MasahefMoratala.json in Resources */ = {isa = PBXBuildFile; fileRef = 075DDA892842CDB700C15348 /* MasahefMoratala.json */; };
+		07699E3528C6C915003C0F74 /* UserDefaults Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699E3428C6C915003C0F74 /* UserDefaults Extension.swift */; };
+		07699EE328C90B8A003C0F74 /* PrayerTimesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699EE128C90B8A003C0F74 /* PrayerTimesCollectionViewCell.swift */; };
+		07699EE428C90B8A003C0F74 /* PrayerTimesCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 07699EE228C90B8A003C0F74 /* PrayerTimesCollectionViewCell.xib */; };
+		07699EF628CAAEF5003C0F74 /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699EF528CAAEF5003C0F74 /* DateHelper.swift */; };
+		07699EF928CAB673003C0F74 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699EF828CAB673003C0F74 /* Date+Extension.swift */; };
+		07699EFC28CAC8B6003C0F74 /* PrayerTimingForMonthModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699EFB28CAC8B6003C0F74 /* PrayerTimingForMonthModel.swift */; };
+		07699F0028CB954E003C0F74 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699EFF28CB954D003C0F74 /* String+Extension.swift */; };
+		07699F0328CBEDEA003C0F74 /* CurrentTimingIndex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699F0228CBEDEA003C0F74 /* CurrentTimingIndex.swift */; };
+		07699F0628CD345A003C0F74 /* NextPrayerTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07699F0528CD345A003C0F74 /* NextPrayerTime.swift */; };
 		0776E6D12854AC81007721DC /* AzkarModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776E6D02854AC81007721DC /* AzkarModel.swift */; };
 		0776E6D42854ACAC007721DC /* MorningEveningAzkar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776E6D32854ACAC007721DC /* MorningEveningAzkar.swift */; };
 		0776E6E72854BBED007721DC /* MainAzkarTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0776E6E52854BBED007721DC /* MainAzkarTitleTableViewCell.swift */; };
@@ -79,6 +75,7 @@
 
 /* Begin PBXFileReference section */
 		0700DC9828457B920092CEFA /* RecitersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecitersViewController.swift; sourceTree = "<group>"; };
+		073978FF28CEB3B600DAB547 /* IterateTimingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IterateTimingModel.swift; sourceTree = "<group>"; };
 		073DED992857DD870009F2DA /* View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
 		073DED9E285800290009F2DA /* AzkarCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AzkarCustomButton.swift; sourceTree = "<group>"; };
 		073DEDA128580E8C0009F2DA /* AzkarView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AzkarView.xib; sourceTree = "<group>"; };
@@ -88,23 +85,18 @@
 		073DEDB0285814EF0009F2DA /* QeblaView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = QeblaView.xib; sourceTree = "<group>"; };
 		073DEDB92858310E0009F2DA /* SebhaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SebhaViewController.swift; sourceTree = "<group>"; };
 		07411F1D2856E481004891F9 /* VerticalIconTextButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalIconTextButton.swift; sourceTree = "<group>"; };
-		0752DA762847E282005EBBF0 /* Designation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Designation.swift; sourceTree = "<group>"; };
-		0752DA772847E282005EBBF0 /* PrayerTiming.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTiming.swift; sourceTree = "<group>"; };
-		0752DA782847E282005EBBF0 /* Gregorian.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gregorian.swift; sourceTree = "<group>"; };
-		0752DA792847E282005EBBF0 /* Method.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Method.swift; sourceTree = "<group>"; };
-		0752DA7A2847E282005EBBF0 /* Offset.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Offset.swift; sourceTree = "<group>"; };
-		0752DA7B2847E282005EBBF0 /* Datea.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Datea.swift; sourceTree = "<group>"; };
-		0752DA7C2847E282005EBBF0 /* Weekday.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Weekday.swift; sourceTree = "<group>"; };
-		0752DA7D2847E282005EBBF0 /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		0752DA7E2847E282005EBBF0 /* Params.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Params.swift; sourceTree = "<group>"; };
-		0752DA7F2847E282005EBBF0 /* TimingData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingData.swift; sourceTree = "<group>"; };
-		0752DA802847E282005EBBF0 /* Meta.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Meta.swift; sourceTree = "<group>"; };
-		0752DA812847E282005EBBF0 /* Hijri.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hijri.swift; sourceTree = "<group>"; };
-		0752DA822847E282005EBBF0 /* Timings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timings.swift; sourceTree = "<group>"; };
-		0752DA832847E283005EBBF0 /* Month.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Month.swift; sourceTree = "<group>"; };
 		075DDA822842B7A800C15348 /* AllAzkarTitles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = AllAzkarTitles.json; sourceTree = "<group>"; };
 		075DDA852842C02300C15348 /* MorrningEveningAzkar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MorrningEveningAzkar.json; sourceTree = "<group>"; };
 		075DDA892842CDB700C15348 /* MasahefMoratala.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = MasahefMoratala.json; sourceTree = "<group>"; };
+		07699E3428C6C915003C0F74 /* UserDefaults Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults Extension.swift"; sourceTree = "<group>"; };
+		07699EE128C90B8A003C0F74 /* PrayerTimesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTimesCollectionViewCell.swift; sourceTree = "<group>"; };
+		07699EE228C90B8A003C0F74 /* PrayerTimesCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PrayerTimesCollectionViewCell.xib; sourceTree = "<group>"; };
+		07699EF528CAAEF5003C0F74 /* DateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateHelper.swift; sourceTree = "<group>"; };
+		07699EF828CAB673003C0F74 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		07699EFB28CAC8B6003C0F74 /* PrayerTimingForMonthModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrayerTimingForMonthModel.swift; sourceTree = "<group>"; };
+		07699EFF28CB954D003C0F74 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		07699F0228CBEDEA003C0F74 /* CurrentTimingIndex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimingIndex.swift; sourceTree = "<group>"; };
+		07699F0528CD345A003C0F74 /* NextPrayerTime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextPrayerTime.swift; sourceTree = "<group>"; };
 		0776E6D02854AC81007721DC /* AzkarModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AzkarModel.swift; sourceTree = "<group>"; };
 		0776E6D32854ACAC007721DC /* MorningEveningAzkar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MorningEveningAzkar.swift; sourceTree = "<group>"; };
 		0776E6E52854BBED007721DC /* MainAzkarTitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainAzkarTitleTableViewCell.swift; sourceTree = "<group>"; };
@@ -169,7 +161,7 @@
 		0732E0332851A45B00F41271 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
-				07BA38D02852A0D000136BBE /* TimeManager.swift */,
+				07699EDC28C90541003C0F74 /* Time Manger */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -210,33 +202,58 @@
 			path = Qebla;
 			sourceTree = "<group>";
 		};
-		0752DA752847E263005EBBF0 /* AthanModel */ = {
-			isa = PBXGroup;
-			children = (
-				0752DA772847E282005EBBF0 /* PrayerTiming.swift */,
-				0752DA7F2847E282005EBBF0 /* TimingData.swift */,
-				0752DA822847E282005EBBF0 /* Timings.swift */,
-				0752DA7B2847E282005EBBF0 /* Datea.swift */,
-				0752DA762847E282005EBBF0 /* Designation.swift */,
-				0752DA782847E282005EBBF0 /* Gregorian.swift */,
-				0752DA812847E282005EBBF0 /* Hijri.swift */,
-				0752DA7D2847E282005EBBF0 /* Location.swift */,
-				0752DA802847E282005EBBF0 /* Meta.swift */,
-				0752DA792847E282005EBBF0 /* Method.swift */,
-				0752DA832847E283005EBBF0 /* Month.swift */,
-				0752DA7A2847E282005EBBF0 /* Offset.swift */,
-				0752DA7E2847E282005EBBF0 /* Params.swift */,
-				0752DA7C2847E282005EBBF0 /* Weekday.swift */,
-			);
-			path = AthanModel;
-			sourceTree = "<group>";
-		};
 		075DDA8C2842CE5000C15348 /* GetDataFromJSON */ = {
 			isa = PBXGroup;
 			children = (
 				07B6F0AA283C69920074B49A /* GetDataFromJsonFile.swift */,
 			);
 			path = GetDataFromJSON;
+			sourceTree = "<group>";
+		};
+		07699E3328C6C8EA003C0F74 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				07699E3428C6C915003C0F74 /* UserDefaults Extension.swift */,
+				07699EF828CAB673003C0F74 /* Date+Extension.swift */,
+				07699EFF28CB954D003C0F74 /* String+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		07699E3928C6DC51003C0F74 /* Custom UI */ = {
+			isa = PBXGroup;
+			children = (
+				07F75E8E284AE0380040FF57 /* Custom Button */,
+				07C5382A2848209B00C19C22 /* CardView */,
+			);
+			path = "Custom UI";
+			sourceTree = "<group>";
+		};
+		07699EDC28C90541003C0F74 /* Time Manger */ = {
+			isa = PBXGroup;
+			children = (
+				07BA38D02852A0D000136BBE /* TimeManager.swift */,
+			);
+			path = "Time Manger";
+			sourceTree = "<group>";
+		};
+		07699EDE28C90AF9003C0F74 /* PrayerCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				07699EE128C90B8A003C0F74 /* PrayerTimesCollectionViewCell.swift */,
+				07699EE228C90B8A003C0F74 /* PrayerTimesCollectionViewCell.xib */,
+			);
+			path = PrayerCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		07699EF428CAAED9003C0F74 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				07699EF528CAAEF5003C0F74 /* DateHelper.swift */,
+				07699F0528CD345A003C0F74 /* NextPrayerTime.swift */,
+				07699F0228CBEDEA003C0F74 /* CurrentTimingIndex.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 		0776E6E42854BBA2007721DC /* MainAzkarTitleTableViewCell */ = {
@@ -316,6 +333,9 @@
 		07CB82EE2839AA3600E23D8A /* Muslim Day */ = {
 			isa = PBXGroup;
 			children = (
+				07699EF428CAAED9003C0F74 /* Helper */,
+				07699E3928C6DC51003C0F74 /* Custom UI */,
+				07699E3328C6C8EA003C0F74 /* Extension */,
 				077F97312867242E007DF88C /* Animations */,
 				0732E0332851A45B00F41271 /* Managers */,
 				075DDA8C2842CE5000C15348 /* GetDataFromJSON */,
@@ -323,10 +343,10 @@
 				07B6F0A4283C5C6C0074B49A /* resources */,
 				07CB83142839ACD300E23D8A /* Models */,
 				07CB83042839ABA900E23D8A /* CustomCells */,
+				07FAED852839B67500B53237 /* Controllers */,
 				07A9E321283DAB41008EA4D3 /* Assets.xcassets */,
 				07CB82EF2839AA3600E23D8A /* AppDelegate.swift */,
 				07CB82F12839AA3600E23D8A /* SceneDelegate.swift */,
-				07FAED852839B67500B53237 /* Controllers */,
 				07CB82F52839AA3600E23D8A /* Main.storyboard */,
 				07CB82FA2839AA3D00E23D8A /* LaunchScreen.storyboard */,
 				07CB82FD2839AA3D00E23D8A /* Info.plist */,
@@ -337,10 +357,9 @@
 		07CB83042839ABA900E23D8A /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
+				07699EDE28C90AF9003C0F74 /* PrayerCollectionViewCell */,
 				0776E6EC2854BE03007721DC /* AzkarCell */,
 				0776E6E42854BBA2007721DC /* MainAzkarTitleTableViewCell */,
-				07F75E8E284AE0380040FF57 /* Custom Button */,
-				07C5382A2848209B00C19C22 /* CardView */,
 				07F40FF82844144200FFD57E /* SideMenu */,
 				07CB83052839ABBE00E23D8A /* QuranViewCell */,
 			);
@@ -361,11 +380,12 @@
 			children = (
 				0776E6D02854AC81007721DC /* AzkarModel.swift */,
 				0776E6D32854ACAC007721DC /* MorningEveningAzkar.swift */,
-				0752DA752847E263005EBBF0 /* AthanModel */,
 				07CB83162839AD0700E23D8A /* Almeekly.swift */,
 				07FAED812839B22300B53237 /* QuranData.swift */,
 				07F40FF0284401C200FFD57E /* MoshafMoratalRecitation.swift */,
 				07F40FFF284445D200FFD57E /* ReciterMp3Model.swift */,
+				07699EFB28CAC8B6003C0F74 /* PrayerTimingForMonthModel.swift */,
+				073978FF28CEB3B600DAB547 /* IterateTimingModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -506,6 +526,7 @@
 				07A9E31A283D0818008EA4D3 /* QuranMetaJSON.json in Resources */,
 				0776E6E82854BBED007721DC /* MainAzkarTitleTableViewCell.xib in Resources */,
 				07CB830D2839AC1700E23D8A /* QuranCell.xib in Resources */,
+				07699EE428C90B8A003C0F74 /* PrayerTimesCollectionViewCell.xib in Resources */,
 				07F40FFC2844147F00FFD57E /* SideMenuTableViewCell.xib in Resources */,
 				075DDA832842B7A800C15348 /* AllAzkarTitles.json in Resources */,
 				073DEDB1285814EF0009F2DA /* QeblaView.xib in Resources */,
@@ -549,53 +570,48 @@
 				07FAED902839B8F300B53237 /* NetworkService.swift in Sources */,
 				07FAED952839D18700B53237 /* PlayerViewController.swift in Sources */,
 				073DEDA62858122E0009F2DA /* SebhaCustomButton.swift in Sources */,
-				0752DA8A2847E283005EBBF0 /* Weekday.swift in Sources */,
+				07699EE328C90B8A003C0F74 /* PrayerTimesCollectionViewCell.swift in Sources */,
 				07CB83172839AD0700E23D8A /* Almeekly.swift in Sources */,
+				0739790028CEB3B600DAB547 /* IterateTimingModel.swift in Sources */,
 				07995A312848571A008C2A57 /* TabBarViewController.swift in Sources */,
 				07F41000284445D200FFD57E /* ReciterMp3Model.swift in Sources */,
 				07CB82F42839AA3600E23D8A /* QuranViewController.swift in Sources */,
-				0752DA8B2847E283005EBBF0 /* Location.swift in Sources */,
 				0776E6D42854ACAC007721DC /* MorningEveningAzkar.swift in Sources */,
-				0752DA902847E283005EBBF0 /* Timings.swift in Sources */,
 				07CB83102839AC2600E23D8A /* QuranCell.swift in Sources */,
 				07C538272847F4B800C19C22 /* HomeViewController.swift in Sources */,
-				0752DA8E2847E283005EBBF0 /* Meta.swift in Sources */,
 				078B91D2286B69C600BD1F26 /* ThirdContainerViewController.swift in Sources */,
+				07699F0028CB954E003C0F74 /* String+Extension.swift in Sources */,
 				0700DC9928457B920092CEFA /* RecitersViewController.swift in Sources */,
 				07FAED822839B22300B53237 /* QuranData.swift in Sources */,
-				0752DA872847E283005EBBF0 /* Method.swift in Sources */,
-				0752DA8D2847E283005EBBF0 /* TimingData.swift in Sources */,
+				07699EF628CAAEF5003C0F74 /* DateHelper.swift in Sources */,
 				07C5382C284820C700C19C22 /* CardView.swift in Sources */,
+				07699EFC28CAC8B6003C0F74 /* PrayerTimingForMonthModel.swift in Sources */,
 				07BA38D12852A0D000136BBE /* TimeManager.swift in Sources */,
-				0752DA8C2847E283005EBBF0 /* Params.swift in Sources */,
 				073DEDBA2858310E0009F2DA /* SebhaViewController.swift in Sources */,
 				07FAED912839B8F300B53237 /* APIResponse.swift in Sources */,
 				07F40FF1284401C200FFD57E /* MoshafMoratalRecitation.swift in Sources */,
-				0752DA862847E283005EBBF0 /* Gregorian.swift in Sources */,
 				0776E6D12854AC81007721DC /* AzkarModel.swift in Sources */,
 				07FAED8E2839B8F300B53237 /* AppError.swift in Sources */,
 				07F40FFB2844147F00FFD57E /* SideMenuTableViewCell.swift in Sources */,
 				07CB82F02839AA3600E23D8A /* AppDelegate.swift in Sources */,
 				07A274812852F6B40004C96E /* MainAzkarViewController.swift in Sources */,
 				078B91C4286B267A00BD1F26 /* FirstContainerViewController.swift in Sources */,
-				0752DA912847E283005EBBF0 /* Month.swift in Sources */,
+				07699E3528C6C915003C0F74 /* UserDefaults Extension.swift in Sources */,
 				0776E6EF2854BE42007721DC /* AzkarCell.swift in Sources */,
 				078B91C7286B525500BD1F26 /* SecondContainerViewController.swift in Sources */,
-				0752DA842847E283005EBBF0 /* Designation.swift in Sources */,
 				073DED9F285800290009F2DA /* AzkarCustomButton.swift in Sources */,
+				07699F0328CBEDEA003C0F74 /* CurrentTimingIndex.swift in Sources */,
 				07FAED8D2839B8F300B53237 /* AzanApiRoute.swift in Sources */,
-				0752DA852847E283005EBBF0 /* PrayerTiming.swift in Sources */,
+				07699F0628CD345A003C0F74 /* NextPrayerTime.swift in Sources */,
 				078B91D6286B96C100BD1F26 /* SebhaAzkarListViewController.swift in Sources */,
 				07B81F43286CCA530085AF48 /* FourthConatinerViewController.swift in Sources */,
 				0776E6E72854BBED007721DC /* MainAzkarTitleTableViewCell.swift in Sources */,
 				077F973328672456007DF88C /* CircleProgressAnimatios.swift in Sources */,
-				0752DA882847E283005EBBF0 /* Offset.swift in Sources */,
 				073DEDAE285814C30009F2DA /* QeblaCustomButton.swift in Sources */,
 				07A274822852F6B40004C96E /* DetailedAzkarViewController.swift in Sources */,
 				07CB82F22839AA3600E23D8A /* SceneDelegate.swift in Sources */,
-				0752DA8F2847E283005EBBF0 /* Hijri.swift in Sources */,
-				0752DA892847E283005EBBF0 /* Datea.swift in Sources */,
 				07411F1E2856E481004891F9 /* VerticalIconTextButton.swift in Sources */,
+				07699EF928CAB673003C0F74 /* Date+Extension.swift in Sources */,
 				07B6F0AB283C69920074B49A /* GetDataFromJsonFile.swift in Sources */,
 				07FAED8F2839B8F300B53237 /* ApiMethod.swift in Sources */,
 			);

@@ -6,3 +6,7 @@
 //
 
 import Foundation
+struct IterateTimingModel {
+    let prayerName:String
+    let paryerDate:Date
+}

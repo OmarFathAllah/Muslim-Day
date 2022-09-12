@@ -6,3 +6,10 @@
 //
 
 import Foundation
+extension String{
+    
+//    remove (EET) from prayerTiming geted back from api
+    func removeEETfromTiming()-> String{
+        return self.replacingOccurrences(of: "(EET)", with:"")
+    }
+}

@@ -4,44 +4,212 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PrayerTimesCollectionViewCell" id="gTV-IL-0wX" customClass="PrayerTimesCollectionViewCell" customModule="Collection_inside_collection__demo" customModuleProvider="target">
-            <rect key="frame" x="0.0" y="0.0" width="114" height="166"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="PrayerTimesCollectionViewCell" id="gTV-IL-0wX" customClass="PrayerTimesCollectionViewCell" customModule="Muslim_Day" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="548" height="164"/>
             <autoresizingMask key="autoresizingMask"/>
             <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                <rect key="frame" x="0.0" y="0.0" width="114" height="166"/>
+                <rect key="frame" x="0.0" y="0.0" width="548" height="164"/>
                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XwZ-09-0ke" customClass="CardView" customModule="Collection_inside_collection__demo" customModuleProvider="target">
-                        <rect key="frame" x="0.0" y="0.0" width="114" height="166"/>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XwZ-09-0ke" customClass="CardView" customModule="Muslim_Day" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="548" height="164"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="6Nb-YP-ozk">
-                                <rect key="frame" x="0.0" y="0.0" width="114" height="166"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="6Nb-YP-ozk">
+                                <rect key="frame" x="0.0" y="0.0" width="548" height="164"/>
                                 <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hmx-w5-XQc">
-                                        <rect key="frame" x="36.5" y="0.0" width="41.5" height="49"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="iwU-gs-Jmm">
-                                        <rect key="frame" x="14" y="51" width="86" height="64"/>
-                                    </imageView>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSV-0R-gCD">
-                                        <rect key="frame" x="36.5" y="117" width="41.5" height="49"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <nil key="textColor"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vk2-FP-DfO" customClass="CardView" customModule="Muslim_Day" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="89.5" height="164"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Hmx-w5-XQc">
+                                                <rect key="frame" x="24" y="8" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="iwU-gs-Jmm">
+                                                <rect key="frame" x="14" y="52.5" width="61.5" height="59"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oSV-0R-gCD">
+                                                <rect key="frame" x="24" y="135.5" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="iwU-gs-Jmm" firstAttribute="centerY" secondItem="Vk2-FP-DfO" secondAttribute="centerY" id="6Tn-dr-mcy"/>
+                                            <constraint firstAttribute="bottom" secondItem="oSV-0R-gCD" secondAttribute="bottom" constant="8" id="Rmc-RE-nT3"/>
+                                            <constraint firstItem="iwU-gs-Jmm" firstAttribute="height" secondItem="Vk2-FP-DfO" secondAttribute="height" multiplier="0.359756" id="UhE-WH-ahj"/>
+                                            <constraint firstItem="Hmx-w5-XQc" firstAttribute="centerX" secondItem="Vk2-FP-DfO" secondAttribute="centerX" id="cOQ-id-ayd"/>
+                                            <constraint firstItem="Hmx-w5-XQc" firstAttribute="top" secondItem="Vk2-FP-DfO" secondAttribute="top" constant="8" id="dfM-AH-ACv"/>
+                                            <constraint firstItem="iwU-gs-Jmm" firstAttribute="width" secondItem="Vk2-FP-DfO" secondAttribute="width" multiplier="0.68254" id="eHU-vl-JUu"/>
+                                            <constraint firstItem="iwU-gs-Jmm" firstAttribute="centerX" secondItem="Vk2-FP-DfO" secondAttribute="centerX" id="pcC-nv-lBP"/>
+                                            <constraint firstItem="oSV-0R-gCD" firstAttribute="centerX" secondItem="Vk2-FP-DfO" secondAttribute="centerX" id="uu0-xp-8vF"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kez-rP-zBS" customClass="CardView" customModule="Muslim_Day" customModuleProvider="target">
+                                        <rect key="frame" x="91.5" y="0.0" width="90" height="164"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m7Q-9u-ON1">
+                                                <rect key="frame" x="24.5" y="8" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="a1g-lw-SWo">
+                                                <rect key="frame" x="14.5" y="52.5" width="61" height="59"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="f03-I4-SuF">
+                                                <rect key="frame" x="24.5" y="135.5" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="a1g-lw-SWo" firstAttribute="centerX" secondItem="kez-rP-zBS" secondAttribute="centerX" id="0w6-3a-fJf"/>
+                                            <constraint firstItem="f03-I4-SuF" firstAttribute="centerX" secondItem="kez-rP-zBS" secondAttribute="centerX" id="10R-f1-CXq"/>
+                                            <constraint firstItem="m7Q-9u-ON1" firstAttribute="centerX" secondItem="kez-rP-zBS" secondAttribute="centerX" id="KCQ-gV-oLa"/>
+                                            <constraint firstItem="a1g-lw-SWo" firstAttribute="height" secondItem="kez-rP-zBS" secondAttribute="height" multiplier="0.359756" id="Qi5-Ta-BfY"/>
+                                            <constraint firstAttribute="bottom" secondItem="f03-I4-SuF" secondAttribute="bottom" constant="8" id="kCl-u5-SZz"/>
+                                            <constraint firstItem="a1g-lw-SWo" firstAttribute="centerY" secondItem="kez-rP-zBS" secondAttribute="centerY" id="wZL-FQ-Mms"/>
+                                            <constraint firstItem="m7Q-9u-ON1" firstAttribute="top" secondItem="kez-rP-zBS" secondAttribute="top" constant="8" id="zIm-HJ-SeV"/>
+                                            <constraint firstItem="a1g-lw-SWo" firstAttribute="width" secondItem="kez-rP-zBS" secondAttribute="width" multiplier="0.68254" id="zaB-di-VNi"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sFR-eV-SrB" customClass="CardView" customModule="Muslim_Day" customModuleProvider="target">
+                                        <rect key="frame" x="183.5" y="0.0" width="89.5" height="164"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1lz-3m-XDv">
+                                                <rect key="frame" x="24" y="8" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="e1T-Ii-oHO">
+                                                <rect key="frame" x="14" y="52.5" width="61.5" height="59"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9KW-C6-xXC">
+                                                <rect key="frame" x="24" y="135.5" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="1lz-3m-XDv" firstAttribute="centerX" secondItem="sFR-eV-SrB" secondAttribute="centerX" id="64t-1q-Zps"/>
+                                            <constraint firstAttribute="bottom" secondItem="9KW-C6-xXC" secondAttribute="bottom" constant="8" id="7FC-zc-xke"/>
+                                            <constraint firstItem="e1T-Ii-oHO" firstAttribute="centerX" secondItem="sFR-eV-SrB" secondAttribute="centerX" id="MOq-zx-rUx"/>
+                                            <constraint firstItem="e1T-Ii-oHO" firstAttribute="width" secondItem="sFR-eV-SrB" secondAttribute="width" multiplier="0.68254" id="Vpn-OM-yoU"/>
+                                            <constraint firstItem="e1T-Ii-oHO" firstAttribute="height" secondItem="sFR-eV-SrB" secondAttribute="height" multiplier="0.359756" id="YUh-q9-UnZ"/>
+                                            <constraint firstItem="9KW-C6-xXC" firstAttribute="centerX" secondItem="sFR-eV-SrB" secondAttribute="centerX" id="cq6-1G-3ri"/>
+                                            <constraint firstItem="1lz-3m-XDv" firstAttribute="top" secondItem="sFR-eV-SrB" secondAttribute="top" constant="8" id="fU1-iY-SdR"/>
+                                            <constraint firstItem="e1T-Ii-oHO" firstAttribute="centerY" secondItem="sFR-eV-SrB" secondAttribute="centerY" id="qoA-xm-3oH"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rjO-Ze-7IS" customClass="CardView" customModule="Muslim_Day" customModuleProvider="target">
+                                        <rect key="frame" x="275" y="0.0" width="89.5" height="164"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oqd-Jx-qJi">
+                                                <rect key="frame" x="24" y="8" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="m9S-Fm-e4I">
+                                                <rect key="frame" x="14" y="52.5" width="61.5" height="59"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBK-FD-DYr">
+                                                <rect key="frame" x="24" y="135.5" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="m9S-Fm-e4I" firstAttribute="height" secondItem="rjO-Ze-7IS" secondAttribute="height" multiplier="0.359756" id="6y3-IP-EtZ"/>
+                                            <constraint firstItem="WBK-FD-DYr" firstAttribute="centerX" secondItem="rjO-Ze-7IS" secondAttribute="centerX" id="MXo-Xg-puA"/>
+                                            <constraint firstAttribute="bottom" secondItem="WBK-FD-DYr" secondAttribute="bottom" constant="8" id="dZN-r0-X55"/>
+                                            <constraint firstItem="m9S-Fm-e4I" firstAttribute="centerY" secondItem="rjO-Ze-7IS" secondAttribute="centerY" id="oV5-tx-qTg"/>
+                                            <constraint firstItem="oqd-Jx-qJi" firstAttribute="top" secondItem="rjO-Ze-7IS" secondAttribute="top" constant="8" id="vpV-64-zcm"/>
+                                            <constraint firstItem="oqd-Jx-qJi" firstAttribute="centerX" secondItem="rjO-Ze-7IS" secondAttribute="centerX" id="x8r-DO-X3w"/>
+                                            <constraint firstItem="m9S-Fm-e4I" firstAttribute="width" secondItem="rjO-Ze-7IS" secondAttribute="width" multiplier="0.68254" id="xsD-0A-wpU"/>
+                                            <constraint firstItem="m9S-Fm-e4I" firstAttribute="centerX" secondItem="rjO-Ze-7IS" secondAttribute="centerX" id="y2G-E0-hoS"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bS0-xT-sIO" customClass="CardView" customModule="Muslim_Day" customModuleProvider="target">
+                                        <rect key="frame" x="366.5" y="0.0" width="90" height="164"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqL-FL-9dR">
+                                                <rect key="frame" x="24.5" y="8" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="Wsk-JB-0Rk">
+                                                <rect key="frame" x="14.5" y="52.5" width="61" height="59"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rdn-M9-e7j">
+                                                <rect key="frame" x="24.5" y="135.5" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="TqL-FL-9dR" firstAttribute="top" secondItem="bS0-xT-sIO" secondAttribute="top" constant="8" id="1Nb-gO-YAj"/>
+                                            <constraint firstItem="TqL-FL-9dR" firstAttribute="centerX" secondItem="bS0-xT-sIO" secondAttribute="centerX" id="1XD-Sq-6wk"/>
+                                            <constraint firstItem="Wsk-JB-0Rk" firstAttribute="centerX" secondItem="bS0-xT-sIO" secondAttribute="centerX" id="GaR-UF-HJi"/>
+                                            <constraint firstItem="rdn-M9-e7j" firstAttribute="centerX" secondItem="bS0-xT-sIO" secondAttribute="centerX" id="U8y-ns-skS"/>
+                                            <constraint firstItem="Wsk-JB-0Rk" firstAttribute="centerY" secondItem="bS0-xT-sIO" secondAttribute="centerY" id="XES-ba-7hB"/>
+                                            <constraint firstItem="Wsk-JB-0Rk" firstAttribute="width" secondItem="bS0-xT-sIO" secondAttribute="width" multiplier="0.68254" id="fDp-3S-JXv"/>
+                                            <constraint firstItem="Wsk-JB-0Rk" firstAttribute="height" secondItem="bS0-xT-sIO" secondAttribute="height" multiplier="0.359756" id="xG4-g7-XWn"/>
+                                            <constraint firstAttribute="bottom" secondItem="rdn-M9-e7j" secondAttribute="bottom" constant="8" id="xOB-4w-6Kc"/>
+                                        </constraints>
+                                    </view>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9K5-X7-9y6" customClass="CardView" customModule="Muslim_Day" customModuleProvider="target">
+                                        <rect key="frame" x="458.5" y="0.0" width="89.5" height="164"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6x-Wg-DZM">
+                                                <rect key="frame" x="24" y="8" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="S26-nK-3Bn">
+                                                <rect key="frame" x="14" y="52.5" width="61.5" height="59"/>
+                                            </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="caq-fk-OeZ">
+                                                <rect key="frame" x="24" y="135.5" width="41.5" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <constraints>
+                                            <constraint firstItem="caq-fk-OeZ" firstAttribute="centerX" secondItem="9K5-X7-9y6" secondAttribute="centerX" id="1Y7-8H-X0H"/>
+                                            <constraint firstAttribute="bottom" secondItem="caq-fk-OeZ" secondAttribute="bottom" constant="8" id="JE7-wQ-eCb"/>
+                                            <constraint firstItem="d6x-Wg-DZM" firstAttribute="centerX" secondItem="9K5-X7-9y6" secondAttribute="centerX" id="UvA-ig-euW"/>
+                                            <constraint firstItem="d6x-Wg-DZM" firstAttribute="top" secondItem="9K5-X7-9y6" secondAttribute="top" constant="8" id="VWO-7e-iF6"/>
+                                            <constraint firstItem="S26-nK-3Bn" firstAttribute="width" secondItem="9K5-X7-9y6" secondAttribute="width" multiplier="0.68254" id="WL6-v6-qSX"/>
+                                            <constraint firstItem="S26-nK-3Bn" firstAttribute="height" secondItem="9K5-X7-9y6" secondAttribute="height" multiplier="0.359756" id="npT-Rb-tgh"/>
+                                            <constraint firstItem="S26-nK-3Bn" firstAttribute="centerY" secondItem="9K5-X7-9y6" secondAttribute="centerY" id="oSO-bw-RSP"/>
+                                            <constraint firstItem="S26-nK-3Bn" firstAttribute="centerX" secondItem="9K5-X7-9y6" secondAttribute="centerX" id="tR2-9k-Zyh"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
-                                <constraints>
-                                    <constraint firstItem="iwU-gs-Jmm" firstAttribute="centerY" secondItem="6Nb-YP-ozk" secondAttribute="centerY" id="AdH-Eb-IPN"/>
-                                    <constraint firstItem="iwU-gs-Jmm" firstAttribute="centerX" secondItem="6Nb-YP-ozk" secondAttribute="centerX" id="Eva-cE-fcm"/>
-                                </constraints>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" red="0.70860296489999997" green="0.87224954369999996" blue="0.96079903840000003" alpha="0.69852339176973188" colorSpace="custom" customColorSpace="displayP3"/>
@@ -75,13 +243,33 @@
                 <constraint firstItem="XwZ-09-0ke" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="dE8-ps-zLc"/>
                 <constraint firstAttribute="trailing" secondItem="XwZ-09-0ke" secondAttribute="trailing" id="kDV-L7-eJX"/>
             </constraints>
-            <size key="customSize" width="114" height="166"/>
+            <size key="customSize" width="548" height="164"/>
             <connections>
-                <outlet property="prayerImage" destination="iwU-gs-Jmm" id="acw-ed-T1Z"/>
-                <outlet property="prayerName" destination="Hmx-w5-XQc" id="CDB-19-gsm"/>
-                <outlet property="prayerTiming" destination="oSV-0R-gCD" id="cKM-mk-Mhw"/>
+                <outlet property="asrImage" destination="m9S-Fm-e4I" id="cJg-Yt-X8Y"/>
+                <outlet property="asrLabel" destination="oqd-Jx-qJi" id="1BH-tZ-WXX"/>
+                <outlet property="asrTime" destination="WBK-FD-DYr" id="Eem-pt-A6W"/>
+                <outlet property="dhuhrImage" destination="e1T-Ii-oHO" id="zmO-cb-qbE"/>
+                <outlet property="dhuhrLabel" destination="1lz-3m-XDv" id="P0P-Mg-WpM"/>
+                <outlet property="dhuhrTime" destination="9KW-C6-xXC" id="aVo-c6-YFU"/>
+                <outlet property="fajrImage" destination="iwU-gs-Jmm" id="acw-ed-T1Z"/>
+                <outlet property="fajrLabel" destination="Hmx-w5-XQc" id="CDB-19-gsm"/>
+                <outlet property="fajrTime" destination="oSV-0R-gCD" id="cKM-mk-Mhw"/>
+                <outlet property="ishaImage" destination="S26-nK-3Bn" id="L19-Au-1ze"/>
+                <outlet property="ishaLabel" destination="d6x-Wg-DZM" id="4u8-AE-dXW"/>
+                <outlet property="ishaTime" destination="caq-fk-OeZ" id="5sy-GB-bFL"/>
+                <outlet property="maghribImage" destination="Wsk-JB-0Rk" id="3Uz-bs-ccr"/>
+                <outlet property="maghribLabel" destination="TqL-FL-9dR" id="Aw0-i1-mPt"/>
+                <outlet property="maghribTime" destination="rdn-M9-e7j" id="uTE-1F-nEn"/>
+                <outlet property="shroukImage" destination="a1g-lw-SWo" id="BMA-i1-E4c"/>
+                <outlet property="shroukLabel" destination="m7Q-9u-ON1" id="9x3-o3-Cme"/>
+                <outlet property="shroukTime" destination="f03-I4-SuF" id="G3O-vy-4wx"/>
             </connections>
-            <point key="canvasLocation" x="184.05797101449278" y="156.69642857142856"/>
+            <point key="canvasLocation" x="408.69565217391306" y="156.69642857142856"/>
         </collectionViewCell>
     </objects>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
