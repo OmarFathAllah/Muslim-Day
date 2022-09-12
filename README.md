@@ -1,0 +1,21 @@
+# Muslim-Day ( Prayer Timings - Quran only Sound - Azkar - Sibha )
+IOS mobile application. It is still under development but it's almost complete.
+- URLSession Networking Layer
+- Fetch all prayer times from API using current location
+- Get current location
+- Custom buttons using Xib
+- fetch Quran Data from json file
+- fetch Quran reciters mp3 links from Api
+- play sound for all Quran
+- big list of Quran reciters. User can choose between them
+- Table view of all azkar data
+- Using different types of segues
+- table view and custom xib cell
+- Using protocol and delegate for passing data back between view controllers
+- Using Date Formatters
+- Using Observers
+- Using Gesture Recognizers
+- Using simple Circle Progress animation.
+- Collection view to show one week prayer timing - uder development
+- previous date and next date buttons - uder development
+- Calender for one monthe - uder development
